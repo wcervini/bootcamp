@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor ./src --reload --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.24.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@11.24.0",
+  "type": "module",
+  "dependencies": {
+    "oxfmt": "^0.66.0",
+    "oxlint": "^1.81.0",
+    "servor": "^4.0.2"
+  }
+}
