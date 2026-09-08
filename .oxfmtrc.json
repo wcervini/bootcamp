@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [],
+  "semi": false,
+  "tabWidth": 4,
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "useTabs": true
+}
