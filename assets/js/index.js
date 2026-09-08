@@ -1,6 +1,2 @@
-const unused_var = "Walter";
-let url = "https://www.tecnobyte.es";
-
-url = "esto es una prueba";
-console.log(url);
-console.log(unused_var);
+const mode = import.meta.env.MODE === "production" ? "production" : "development";
+console.log(mode);
